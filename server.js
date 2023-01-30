@@ -15,7 +15,6 @@ console.log(todayDate);
 mongoose.set('strictQuery', false);
 // mongoose.connect("mongodb://localhost:27017/todolistdb",{useNewUrlParser:true});
 const DB=process.env.database;
-// const DB = 'mongodb+srv://tripti:tripti59@cluster0.d4qnhx9.mongodb.net/Task?retryWrites=true&w=majority';
 mongoose.connect(DB).then(() => {
   console.log("Connection successful bh");
 }).catch((err)=> console.log("cannot connect"));
