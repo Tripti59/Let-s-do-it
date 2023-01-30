@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Caramel&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Symbols:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lovers+Quarrel&display=swap');
+
+*{
+    background-color: #e5eaf5;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #e5eaf5;
+    margin-bottom: 5rem;
+}
+.date{
+    color: #79c3e8;
+    font-family: 'Noto Sans Symbols', sans-serif;
+    padding-top: 4rem;
+    margin-left: 30vw;
+    margin-right: 30vw;
+    font-size: 2rem;
+}
+.Heading{
+    font-family: 'Caramel', cursive;
+    text-align: center;
+    font-size: 8rem;
+    margin-top: 2rem;
+    /* margin-bottom: 2rem; */
+}
+h4{
+    font-family: 'Lovers Quarrel', cursive;
+    font-size: 2.5rem;
+    text-align: center;
+    padding: 0 1rem;
+    margin-bottom: 3rem;
+}
+.inputArea{
+    width: 40vw;
+    margin: auto;
+    color: #feda6a;
+    color: #a28089;
+    color: #a0d2eb;
+}
+.item{
+    background-color: #acc4f78f;
+    width: 50vw;
+    margin: auto; 
+    display: flex;
+}
+.check{
+    background-color: #acc4f700;
+    flex-grow: 0;
+}
+.text{
+    flex-grow: 9;
+}
+.time{
+    background-color: #acc4f700;
+    font-weight: 900;
+    flex-basis: 65px;
+}
